@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>diegosoftware.info</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:wght@400;700&display=swap"
+          rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Urbanist:wght@100&display=swap" rel="stylesheet">
+    <!--    if you want to look for other fonts then go to google fonts https://fonts.google.com/
+    -->
+    <!--    every element has a border and content
+            the padding is the distance from the border to the content
+            border is the rectangle surrounding the content
+            the margin the the amount of space between the border and the nearest elements.
+
+
+    -->
+    <style>
+
+        .border {
+
+            text-align: center;
+            border-color: black;
+            /*border-width: 5px;*/
+            border-style: dashed;
+            width: 50%;
+            margin-left: 25%;
+
+        }
+
+        .nav-border {
+            color: white;
+            border-color: black;
+            /*border-width: 5px;*/
+            border-style: dashed;
+        }
+
+        body {
+            background-color: #1F4ACC;
+            text-align: center;
+            color: white;
+        }
+
+        .main {
+            position: center;
+            padding: 10px;
+            text-align: center;
+            background-color: yellow;
+            color: black;
+
+        }
+
+        div {
+            padding: 10px;
+        }
+
+        body {
+            font-family: 'Atkinson Hyperlegible', sans-serif;
+        }
+
+        .Headers {
+            font-family: 'Urbanist', sans-serif;
+        }
+
+        .ipsum {
+            border-color: black;
+            border-style: solid;
+            padding: 5%;
+            width: 50%;
+
+
+        }
+
+
+        nav {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 250px;
+            height: 100%;
+            background-color: red;
+            border-right: #333;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        main {
+            margin-left: 250px;
+        }
+
+        nav a {
+            display: inline-block;
+            text-decoration: none;
+            padding: 5px 15px;
+            font-size: 0.9em;
+            color: black;
+            font-weight: bold;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+        }
+        a{
+            background-color: yellow;
+            color: black;
+            padding: 10px;
+            margin: 5px;
+            border-color: black;
+            border-width:thick;
+            border-style: solid;
+        }
+
+        nav a:hover {
+            color: darkgray;
+        }
+
+
+    </style>
+</head>
+
+<body>
+
+<nav class="nav-border">
+
+    <a href="#main">Introduction</a>
+    <a href="#">Contact Me!</a>
+    <a href="#">GitHub</a>
+    <a href="#">Personal Projects</a>
+
+</nav>
+<main>
+    <video autoplay style="width: 25%" src="RPReplay_Final1631605350.mov" onmouseover="this.play()"
+           onmouseout="this.pause();this.currentTime=0;">
+    </video>
+    <br>
+    <div id="main">
+        <hr>
+        <h1 class="Headers border">Diego's Website</h1>
+        <p class="Body-text">
+            This is my website, created to host my portfolio, in order to postulate my personal and professional
+            projects.
+        </p>
+        <hr>
+
+    </div>
+
+    <section class="main">
+        <h2 class="Headers border">JAVA</h2>
+        <p class="Body-text">I made an applet in JAVA that simulates the lifetime of an ATM where each client has a
+            serve time of about
+            5-10min </p>
+
+        <hr>
+
+
+    </section>
+    <article>
+        <h3>Sample text</h3>
+        <div class="ipsum">
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. In efficitur ornare placerat. In sit
+                amet cursus nulla. Nulla gravida cursus mauris, ut porttitor odio blandit egestas. Aliquam ac
+                dictum neque, vel hendrerit lacus. Sed at fermentum dolor, non ornare elit. Morbi sagittis
+                sagittis ex vel dictum. Sed at magna tincidunt, vulputate diam sit amet, imperdiet est. Aenean
+                vitae ex eget nibh laoreet blandit. Aenean dictum tincidunt ipsum, quis eleifend metus
+                scelerisque quis. Aenean nec ante ut turpis fringilla cursus a vitae nisi. Donec sagittis, metus
+                et tempor varius, leo tellus pharetra magna, et volutpat eros sapien a enim.
+            </p>
+            <p>
+                Pellentesque sed erat dui. Duis non elementum orci. Fusce eu metus ullamcorper, congue ligula
+                rutrum, commodo nisi. Vestibulum tincidunt quis nisl eu efficitur. Cras sit amet sollicitudin
+                felis, nec ornare nunc. Pellentesque non orci ut lorem euismod bibendum in eget elit. Aenean vel
+                libero magna. Mauris a dapibus lorem, vel vestibulum sem. Mauris turpis erat, eleifend in
+                commodo nec, imperdiet non arcu.
+            </p>
+            <p>
+                Nulla sagittis, nibh vitae sollicitudin auctor, mi dolor rhoncus enim, sed vestibulum justo
+                metus ac neque. Nunc feugiat gravida augue, in commodo orci porttitor sed. Aliquam accumsan a
+                urna in cursus. Sed in pretium quam. Suspendisse vestibulum venenatis nisl quis gravida. Sed
+                tortor mi, aliquet nec leo eget, interdum lobortis risus. Morbi aliquam ante bibendum nisi
+                hendrerit, eget interdum dolor efficitur. Aenean dapibus metus est, eget tincidunt magna egestas
+                sed. Duis vel ligula et quam pretium auctor. Cras pretium nisi consectetur orci vehicula, quis
+                blandit neque mattis.
+            </p>
+            <p>
+                Donec hendrerit, enim eu gravida dapibus, massa mauris malesuada lorem, sagittis vestibulum
+                velit libero at metus. Mauris egestas vel nulla nec dictum. Suspendisse potenti. Vivamus
+                feugiat, tortor sed luctus sagittis, sem erat accumsan purus, eget ultrices sapien arcu eget
+                diam. Pellentesque ultricies porta elit, fringilla maximus nibh ultricies tristique. Duis eu
+                lacus commodo libero aliquet varius. Pellentesque habitant morbi tristique senectus et netus et
+                malesuada fames ac turpis egestas. Pellentesque tempus enim non nisi euismod euismod.
+                Pellentesque eleifend et erat id condimentum. Praesent mattis leo varius libero posuere,
+                efficitur tempus ipsum tempor. Donec sagittis facilisis urna non sodales. Morbi porta iaculis
+                leo, ut luctus mauris scelerisque eget. Phasellus scelerisque sem a tortor gravida, quis mattis
+                nibh mattis. Mauris accumsan quam non erat aliquet venenatis. Donec egestas euismod eros, quis
+                gravida ipsum tincidunt at.
+            </p>
+            <p>
+                Etiam faucibus dapibus enim sit amet volutpat. Nulla nec eleifend massa. Maecenas metus magna,
+                consectetur non tellus ac, consectetur consequat odio. Maecenas eleifend maximus metus eget
+                scelerisque. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam maximus elit lectus,
+                eget blandit magna finibus pretium. Cras euismod mi vitae convallis molestie. Curabitur aliquam
+                vehicula placerat. Donec nec laoreet diam. Aenean tristique efficitur urna, sit amet consequat
+                velit gravida non. Cras vitae metus suscipit, maximus justo sed, facilisis erat.
+            </p></div>
+    </article>
+
+    <article>
+        <div class="ipsum">
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. In efficitur ornare placerat. In sit
+                amet cursus nulla. Nulla gravida cursus mauris, ut porttitor odio blandit egestas. Aliquam ac
+                dictum neque, vel hendrerit lacus. Sed at fermentum dolor, non ornare elit. Morbi sagittis
+                sagittis ex vel dictum. Sed at magna tincidunt, vulputate diam sit amet, imperdiet est. Aenean
+                vitae ex eget nibh laoreet blandit. Aenean dictum tincidunt ipsum, quis eleifend metus
+                scelerisque quis. Aenean nec ante ut turpis fringilla cursus a vitae nisi. Donec sagittis, metus
+                et tempor varius, leo tellus pharetra magna, et volutpat eros sapien a enim.
+            </p>
+            <p>
+                Pellentesque sed erat dui. Duis non elementum orci. Fusce eu metus ullamcorper, congue ligula
+                rutrum, commodo nisi. Vestibulum tincidunt quis nisl eu efficitur. Cras sit amet sollicitudin
+                felis, nec ornare nunc. Pellentesque non orci ut lorem euismod bibendum in eget elit. Aenean vel
+                libero magna. Mauris a dapibus lorem, vel vestibulum sem. Mauris turpis erat, eleifend in
+                commodo nec, imperdiet non arcu.
+            </p>
+            <p>
+                Nulla sagittis, nibh vitae sollicitudin auctor, mi dolor rhoncus enim, sed vestibulum justo
+                metus ac neque. Nunc feugiat gravida augue, in commodo orci porttitor sed. Aliquam accumsan a
+                urna in cursus. Sed in pretium quam. Suspendisse vestibulum venenatis nisl quis gravida. Sed
+                tortor mi, aliquet nec leo eget, interdum lobortis risus. Morbi aliquam ante bibendum nisi
+                hendrerit, eget interdum dolor efficitur. Aenean dapibus metus est, eget tincidunt magna egestas
+                sed. Duis vel ligula et quam pretium auctor. Cras pretium nisi consectetur orci vehicula, quis
+                blandit neque mattis.
+            </p>
+            <p>
+                Donec hendrerit, enim eu gravida dapibus, massa mauris malesuada lorem, sagittis vestibulum
+                velit libero at metus. Mauris egestas vel nulla nec dictum. Suspendisse potenti. Vivamus
+                feugiat, tortor sed luctus sagittis, sem erat accumsan purus, eget ultrices sapien arcu eget
+                diam. Pellentesque ultricies porta elit, fringilla maximus nibh ultricies tristique. Duis eu
+                lacus commodo libero aliquet varius. Pellentesque habitant morbi tristique senectus et netus et
+                malesuada fames ac turpis egestas. Pellentesque tempus enim non nisi euismod euismod.
+                Pellentesque eleifend et erat id condimentum. Praesent mattis leo varius libero posuere,
+                efficitur tempus ipsum tempor. Donec sagittis facilisis urna non sodales. Morbi porta iaculis
+                leo, ut luctus mauris scelerisque eget. Phasellus scelerisque sem a tortor gravida, quis mattis
+                nibh mattis. Mauris accumsan quam non erat aliquet venenatis. Donec egestas euismod eros, quis
+                gravida ipsum tincidunt at.
+            </p>
+            <p>
+                Etiam faucibus dapibus enim sit amet volutpat. Nulla nec eleifend massa. Maecenas metus magna,
+                consectetur non tellus ac, consectetur consequat odio. Maecenas eleifend maximus metus eget
+                scelerisque. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam maximus elit lectus,
+                eget blandit magna finibus pretium. Cras euismod mi vitae convallis molestie. Curabitur aliquam
+                vehicula placerat. Donec nec laoreet diam. Aenean tristique efficitur urna, sit amet consequat
+                velit gravida non. Cras vitae metus suscipit, maximus justo sed, facilisis erat.
+            </p></div>
+    </article>
+
+    <article>
+        <div class="ipsum">
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. In efficitur ornare placerat. In sit
+                amet cursus nulla. Nulla gravida cursus mauris, ut porttitor odio blandit egestas. Aliquam ac
+                dictum neque, vel hendrerit lacus. Sed at fermentum dolor, non ornare elit. Morbi sagittis
+                sagittis ex vel dictum. Sed at magna tincidunt, vulputate diam sit amet, imperdiet est. Aenean
+                vitae ex eget nibh laoreet blandit. Aenean dictum tincidunt ipsum, quis eleifend metus
+                scelerisque quis. Aenean nec ante ut turpis fringilla cursus a vitae nisi. Donec sagittis, metus
+                et tempor varius, leo tellus pharetra magna, et volutpat eros sapien a enim.
+            </p>
+            <p>
+                Pellentesque sed erat dui. Duis non elementum orci. Fusce eu metus ullamcorper, congue ligula
+                rutrum, commodo nisi. Vestibulum tincidunt quis nisl eu efficitur. Cras sit amet sollicitudin
+                felis, nec ornare nunc. Pellentesque non orci ut lorem euismod bibendum in eget elit. Aenean vel
+                libero magna. Mauris a dapibus lorem, vel vestibulum sem. Mauris turpis erat, eleifend in
+                commodo nec, imperdiet non arcu.
+            </p>
+            <p>
+                Nulla sagittis, nibh vitae sollicitudin auctor, mi dolor rhoncus enim, sed vestibulum justo
+                metus ac neque. Nunc feugiat gravida augue, in commodo orci porttitor sed. Aliquam accumsan a
+                urna in cursus. Sed in pretium quam. Suspendisse vestibulum venenatis nisl quis gravida. Sed
+                tortor mi, aliquet nec leo eget, interdum lobortis risus. Morbi aliquam ante bibendum nisi
+                hendrerit, eget interdum dolor efficitur. Aenean dapibus metus est, eget tincidunt magna egestas
+                sed. Duis vel ligula et quam pretium auctor. Cras pretium nisi consectetur orci vehicula, quis
+                blandit neque mattis.
+            </p>
+            <p>
+                Donec hendrerit, enim eu gravida dapibus, massa mauris malesuada lorem, sagittis vestibulum
+                velit libero at metus. Mauris egestas vel nulla nec dictum. Suspendisse potenti. Vivamus
+                feugiat, tortor sed luctus sagittis, sem erat accumsan purus, eget ultrices sapien arcu eget
+                diam. Pellentesque ultricies porta elit, fringilla maximus nibh ultricies tristique. Duis eu
+                lacus commodo libero aliquet varius. Pellentesque habitant morbi tristique senectus et netus et
+                malesuada fames ac turpis egestas. Pellentesque tempus enim non nisi euismod euismod.
+                Pellentesque eleifend et erat id condimentum. Praesent mattis leo varius libero posuere,
+                efficitur tempus ipsum tempor. Donec sagittis facilisis urna non sodales. Morbi porta iaculis
+                leo, ut luctus mauris scelerisque eget. Phasellus scelerisque sem a tortor gravida, quis mattis
+                nibh mattis. Mauris accumsan quam non erat aliquet venenatis. Donec egestas euismod eros, quis
+                gravida ipsum tincidunt at.
+            </p>
+            <p>
+                Etiam faucibus dapibus enim sit amet volutpat. Nulla nec eleifend massa. Maecenas metus magna,
+                consectetur non tellus ac, consectetur consequat odio. Maecenas eleifend maximus metus eget
+                scelerisque. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam maximus elit lectus,
+                eget blandit magna finibus pretium. Cras euismod mi vitae convallis molestie. Curabitur aliquam
+                vehicula placerat. Donec nec laoreet diam. Aenean tristique efficitur urna, sit amet consequat
+                velit gravida non. Cras vitae metus suscipit, maximus justo sed, facilisis erat.
+            </p></div>
+    </article>
+</main>
+
+
+</body>
+<footer id="footer">
+    <address>
+        Diegoangu2000@gmail.com
+    </address>
+</footer>
+</html>
